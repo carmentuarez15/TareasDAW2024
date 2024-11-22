@@ -1,0 +1,34 @@
+/* Archivo CSS personalizado */
+
+/* Estilo para el encabezado */
+header {
+    background-color: #f8f9fa; /* Fondo claro */
+    border-bottom: 2px solid #007bff; /* Línea azul */
+  }
+  
+  /* Estilo para el pie de página */
+  footer {
+    background-color: #f1f1f1; /* Fondo gris claro */
+    font-size: 14px; /* Tamaño de fuente */
+  }
+  
+  /* Estilo para el tema oscuro */
+  .dark-theme {
+    background-color: #212529; /* Fondo oscuro */
+    color: #f8f9fa; /* Texto claro */
+  }
+  
+  /* Ajustes de formulario */
+  form {
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    main {
+      text-align: center; /* Centra el texto en pantallas pequeñas */
+    }
+  }
+  
